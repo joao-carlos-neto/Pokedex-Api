@@ -1,0 +1,41 @@
+/* Aplicação da fonte: Roboto */
+
+* {
+    font-family: 'Roboto', sans-serif;
+    
+    /* Borda como tamanho total */
+    box-sizing: border-box;
+}
+body {
+  background: #f6f8fc;
+}
+
+/* Estilo Inicial */
+
+.content {
+  width: 100vw;
+  height: 100vh;
+  padding: 1rem;
+  background: #fff;
+}
+
+/* Layout Responsivo */
+@media screen and (min-width: 992px){
+    .content{
+      max-width: 992px;
+      height: auto;
+      margin: 1rem auto;
+      border-radius: 1rem;
+    }
+}
+
+
+.content h1 {
+    margin: 0;
+    padding: 1rem;
+}
+
+
+
+
+
