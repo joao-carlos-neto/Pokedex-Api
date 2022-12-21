@@ -18,6 +18,17 @@ body {
   padding: 1rem;
   background: #fff;
 }
+.content h1 {
+  margin: 0;
+  padding: 1rem;
+}
+/* Layout Header */
+
+.head {
+  background-color: rgb(226, 82, 82);
+  height: 5rem;
+}
+
 
 /* Layout Responsivo */
 @media screen and (min-width: 992px){
@@ -29,11 +40,35 @@ body {
     }
 }
 
-
-.content h1 {
-    margin: 0;
-    padding: 1rem;
+/* Responsividade icon */
+@media screen and (min-width: 100px) {
+  .head img {
+    width: 11%;
+    padding-top: 1rem;
+    margin-left: .5rem;
+  } 
 }
+@media screen and (min-width: 576px) {
+  .head img {
+    width: 6.9%;
+  }
+}
+@media screen and (min-width: 772px) {
+  .head img {
+    width: 5.7%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .head img {
+    width: 4.5%;
+  }
+}
+@media screen and (min-width: 1265px) {
+  .head img {
+    width: 3%;
+  }
+}
+
 
 
 
